@@ -1,0 +1,49 @@
+#biggestContainer{
+	/*border: 5px green solid;*/
+	border: 10px white solid ;
+	background-color: white;
+	margin: auto;
+	margin-top: 5px;
+}
+body{
+	margin: 0 10% 0 10%;
+	background-color: lightblue;
+	background-image: url(http://www.cs.washington.edu/education/courses/190m/09sp/labs/2‐journal/images/background.gif);
+}
+.someDates{
+	/*border: 5px purple solid;*/
+	border-bottom: 2px blue dashed;
+}
+#titleContainer{
+	/*border: 5px red solid;*/
+	background-color: #A8F0F0;
+	text-align: right;
+}
+#titleContainer h2{
+	/*border: 5px orange solid ;*/
+	font-size: 14px;
+}
+.subDivs{
+	/*border: 5px blue solid;*/
+	border: 4px #C2E9E9 solid;
+	background-color: #E8FBFB;
+	padding: 5px;
+	margin-top: 10px;
+	overflow: hidden;
+}
+img{
+	float: right;
+	margin-bottom: 5px;
+}
+#newContainer{
+	float: left;
+	border: 4px blue solid;
+	background-color: #A8F0F0;
+	margin: 5px;
+	padding: 3px;
+	
+}
+/*Question 7, tricky part*/
+div:hover{
+	background-color: yellow !important;
+}
